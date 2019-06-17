@@ -1,0 +1,256 @@
+@media screen and (max-width: 1200px)
+	
+	body
+		font-size: 14px
+
+	h2
+		font-size: 40px
+
+	.block_1 
+		.info_box
+			max-width: 550px
+			padding: 63px 50px 70px 52px
+
+			img
+				width: 80%
+				left: -373px
+
+	.block_4 
+		.portfolio_items_wrap 
+			+ img
+				max-width: 299px
+
+			p
+				margin-top: 111px
+	
+	.block_5
+		.team_items
+			img
+				width: 212px
+
+	footer 
+		.footer_items
+			min-height: 269px
+
+		.col_4 a:nth-child(2n)
+			margin-right: 30px
+
+
+@media screen and (max-width: 992px)
+
+	body
+		font-size: 13px
+
+	section
+		padding: 80px 0
+
+	h2
+		font-size: 36px
+
+	.subtitle
+		margin-bottom: 40px
+		font-size: 16px
+
+	.block_1 
+		.info_box
+			max-width: 400px
+			padding: 40px 30px
+
+			img
+				left: -293px
+				top: 12px
+	
+	.web_design:after,
+	.ux_design:after,
+	.photography:after,
+	.app_development:after
+		display: none
+
+	.btn_top img
+		max-width: 55px
+
+	.block_4 
+		.portfolio_items_wrap
+			width: 100%
+
+			+ img
+				max-width: 332px
+
+			p
+				margin-top: 139px
+
+	.block_5
+		.team_items
+			padding-top: 22px
+
+	.block_8
+		form
+			input[type="text"]
+				width: 345px
+	
+	footer 
+		.footer_items
+			padding: 30px
+			min-height: 236px
+
+
+@media screen and (max-width: 768px)
+
+	section
+		padding: 50px 0
+
+	h2
+		font-size: 30px
+
+	.menu
+		display: none
+
+	.toggle_menu
+		display: inline-block
+		margin-top: 13px
+
+		ul
+			display: none
+			margin-top: 0px
+			padding-top: 10%
+			width: 100%
+			height: 100%
+			background-color: rgba(0,0,0,.8)
+			position: fixed
+			top: 0
+			left: 0
+			z-index: 10
+
+			li
+				display: block
+				padding: 15px
+
+				a
+					font-weight: 500
+					color: rgb(255,255,255)
+
+				&:hover,
+				&:active
+					background-color: rgb(102,197,255)
+
+	.slider
+		.slick-next
+			background-size: cover
+			width: 30px
+			height: 50px
+			right: 60px
+
+		.slick-prev
+			background-size: cover
+			width: 30px
+			height: 50px
+			left: 60px
+
+	.block_1 
+		.info_box 
+			text-align: center
+			display: block
+			margin: 0 auto
+			padding-top: 0
+			margin-top: 0
+			margin-bottom: 0
+
+			img
+				display: none
+
+			h2
+				text-align: center
+
+	.block_4 
+		.portfolio_items
+			margin: 0 auto
+			max-width: 330px
+			margin-bottom: 30px
+
+		.portfolio_items_wrap
+			width: 104%
+
+			+ img
+				width: 100%
+
+			p
+				margin-top: 137px
+
+	.block_5
+		.team_descriptions
+			padding: 35px
+
+			> p
+				text-align: center
+
+			.text
+				width: 100%
+				text-align: center
+
+			.social 
+				width: 100%
+				text-align: inherit
+
+				div
+					border: none
+					display: flex
+					justify-content: space-between
+					padding: 0
+					margin-top: 30px
+
+	.block_7 
+		.prise_items
+			margin-bottom: 50px
+
+	.block_8 
+		form input[type="text"]
+			width: 100%
+
+		form input[type="text"]:nth-child(2n+1)
+			margin-right: 0
+
+	footer
+		padding-bottom: 40px
+
+		.footer_items
+			min-height: inherit
+			height: 150px
+			width: 300px
+			margin: 0 auto
+			text-align: center
+
+			& p:first-child
+				margin-bottom: 10px
+
+			& a:nth-child(2n)
+				margin-right: 12px
+
+@media screen and (max-width: 600px)
+
+	.slider
+		.slick-next
+			width: 20px
+			height: 40px
+			right: 40px
+			top: 60%
+
+		.slick-prev
+			width: 20px
+			height: 40px
+			left: 40px
+			top: 60%
+
+@media screen and (max-width: 380px)
+
+	.slider
+		display: none
+
+	.block_1
+		padding-top: 100px
+
+	.block_5 .team_descriptions .social div
+		flex-direction: column
+		align-items: center
+
+	footer .footer_items
+		max-width: 200px
